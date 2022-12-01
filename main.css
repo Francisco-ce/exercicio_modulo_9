@@ -1,0 +1,76 @@
+header {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-left: 40%;
+}
+
+nav {
+    padding-top: 40px;
+    margin-left: 40%;
+    display: none;
+}
+
+.alinhar-botoes {
+    display: flex;
+}
+
+.ok {
+    border: none;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.nok {
+    border: none;
+    width: 20px;
+    margin-left: 8px;
+}
+
+label {
+    margin-right: 8px;
+    color: #4682B4;
+    font-weight: bold;
+}
+
+input {
+    cursor: pointer;
+    border: solid 1px #4682B4;
+}
+
+.descricao-atividade:hover {
+    border: solid 1px rgb(184, 192, 229);
+}
+
+button {
+    cursor: pointer;
+    background-color:#4682B4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 40%;
+    /* margin-right: 20%; */
+    padding: 0;
+    margin-top: 30px;
+    color: dimgrey;
+    
+}
+
+.selecao-atividade {
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+
+
+
+
