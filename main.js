@@ -16,11 +16,16 @@ $(document).ready(function(){
                                 </li>
                             </div>`);
         $(novoItem).appendTo('ul');
-    })
+        $('#nova-atividade').val('');
 
-    $('.selecao-atividade').click(function(){
-        $(this).css({'text-decoration':'line-through'});
-    })
 
+        $(novoItem).click(function(){
+            $(novoItem).css({'text-decoration':'line-through'});
+        })
+
+        $(novoItem).dblclick(function(){
+            $(novoItem).css({'text-decoration':'none'});
+        })
+    })
 
 })
